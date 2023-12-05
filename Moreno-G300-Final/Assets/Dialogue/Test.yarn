@@ -2,7 +2,8 @@
 position: -200,-1
 ---
 <<fadeIn>>
-<<camera Basement>>
+<<camera Yard>>
+<<place Simon Yard Left>>
 
 Player: Another day in Space Fleet.
 Player: Today's my rotation to Engineering. I hate Engineering.
