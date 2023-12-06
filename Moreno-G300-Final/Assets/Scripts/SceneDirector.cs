@@ -17,7 +17,7 @@ public class SceneDirector : MonoBehaviour {
 
         // <<camera NAME_OF_LOCATION>>
         dialogueRunner.AddCommandHandler<Location>("camera", MoveCamera);
-
+        
         // <<fadeIn DURATION>> and <<fadeOut DURATION>>
         dialogueRunner.AddCommandHandler<float>("fadeIn", FadeIn);
         dialogueRunner.AddCommandHandler<float>("fadeOut", FadeOut);
@@ -28,12 +28,14 @@ public class SceneDirector : MonoBehaviour {
         
         Transform destination = location.GetMarkerWithName(markerName);
         transform.position = destination.position;
+        transform.rotation = destination.rotation;
 }
     // moves camera to camera location {location}>Camera in the scene
     private void MoveCamera(Location location) {
         Transform destination = location.GetMarkerWithName("Camera");
         if (destination != null) {
             Camera.main.transform.position = destination.position;
+            Camera.main.transform.rotation = destination.rotation;
             Debug.Log($"Main Camera moved to {location.name}>Camera.");
         }
     }

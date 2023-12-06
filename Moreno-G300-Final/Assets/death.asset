@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: death
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":96.0,"y":-44.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"a737b353-b06a-4248-9dbe-3e9f4ed1954d","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"138ed79b-77f2-460a-9d1d-3c3430f3f7ac","$version":"A","$type":"Unity.VisualScripting.Update"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"hitYOu","$type":"System.String"}},"position":{"x":4.0,"y":-82.0},"guid":"50f26f00-5739-4e3c-8ec6-26d33376222e","$version":"A","$type":"Unity.VisualScripting.CustomEvent"},{"type":"YarnInteractable","value":null,"defaultValues":{},"position":{"x":194.0,"y":216.0},"guid":"68804f3e-331c-47e3-8f42-99f044f2797d","$version":"A","$type":"Unity.VisualScripting.Literal"},{"type":"YarnInteractable","value":null,"defaultValues":{},"position":{"x":304.0,"y":138.0},"guid":"77084fec-122f-4909-81b5-edcce6c5f09d","$version":"A","$type":"Unity.VisualScripting.Literal"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"me","$type":"System.String"},"object":null},"position":{"x":37.0,"y":80.0},"guid":"e5591097-5355-45f0-9234-00d602111608","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"chainable":false,"parameterNames":[],"member":{"name":"Start","parameterTypes":[],"targetType":"YarnInteractable","targetTypeName":"YarnInteractable","$version":"A"},"defaultValues":{"target":null},"position":{"x":269.0,"y":-35.0},"guid":"c80acf0c-e563-49c2-b278-0aff417ae52a","$version":"A","$type":"Unity.VisualScripting.InvokeMember"}],"$version":"A"}}'
+    _objectReferences: []
