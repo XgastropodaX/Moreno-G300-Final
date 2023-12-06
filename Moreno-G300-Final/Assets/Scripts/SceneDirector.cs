@@ -28,7 +28,7 @@ public class SceneDirector : MonoBehaviour {
         
         Transform destination = location.GetMarkerWithName(markerName);
         transform.position = destination.position;
-        transform.rotation = destination.rotation;
+
 }
     // moves camera to camera location {location}>Camera in the scene
     private void MoveCamera(Location location) {

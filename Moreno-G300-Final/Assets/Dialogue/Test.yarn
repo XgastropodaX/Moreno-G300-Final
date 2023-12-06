@@ -5,11 +5,16 @@ position: -200,-1
 <<camera Yard>>
 <<place merlin Yard Left>>
 <<place merlin Yard Left>>
-<<place xordevout Yard Xor>>
+
 <<declare $ohmy = true>>
 
-Player: Another day in Space Fleet.
+<<place xorConflicted Yard Xor>>
+Merlin: Hi! Thank you for coming!
+<<place xorConflicted Hell Prison>>
+<<place xorDetermined Yard Xor>>
 Player: Today's my rotation to Engineering. I hate Engineering.
+<<place xorDetermined Hell Prison>>
+<<place xorFlustrated Yard Xor>>
 Player: All I dream of is going on an away mission.
 Player: I wonder what I should do? 
 
@@ -22,7 +27,7 @@ position: 134,17
 <<fadeIn>>
 <<camera Base>>
 
-
+-65.788 -19.389 -7.481
 Engineer: Look who turned up.
 Engineer: Honestly, you never feel like you want to be here. 
 Engineer: What's your problem?
