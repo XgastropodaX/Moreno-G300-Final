@@ -8,9 +8,11 @@ position: -200,-1
 
 <<declare $ohmy = true>>
 
+
 <<place xorConflicted Yard Xor>>
 Merlin: Hi! Thank you for coming!
-<<place xorConflicted Hell Prison>>
+<<camera Kitchen>>
+<<place xorConflicted Kitchen Xor>>
 <<place xorDetermined Yard Xor>>
 Player: Today's my rotation to Engineering. I hate Engineering.
 <<place xorDetermined Hell Prison>>
@@ -24,8 +26,12 @@ Player: I wonder what I should do?
 title: TalkToEngineer
 position: 134,17
 ---
+101.004 -154.686 0
 <<fadeIn>>
-<<camera Base>>
+<<camera Kitchen>>
+<<place xorFlustrated Base Xor>>
+<<place t3chfuck Base Demon>>
+<<place merlin Base Hacker>>
 
 Engineer: Look who turned up.
 Engineer: Honestly, you never feel like you want to be here. 
