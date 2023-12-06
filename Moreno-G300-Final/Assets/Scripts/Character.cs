@@ -36,7 +36,6 @@ public class Character : MonoBehaviour {
         Transform destination = location.GetMarkerWithName(markerName);
         if (destination != null) {
             transform.position = destination.position;
-
             Debug.Log($"Character {name} moved to {location.name}>{markerName}.");
         }
     }

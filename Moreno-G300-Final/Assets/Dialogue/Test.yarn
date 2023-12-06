@@ -3,7 +3,9 @@ position: -200,-1
 ---
 <<fadeIn>>
 <<camera Yard>>
-<<place Simon Yard Left>>
+<<place merlin Yard Left>>
+<<place merlin Yard Left>>
+<<place xordevout Yard Xor>>
 <<declare $ohmy = true>>
 
 Player: Another day in Space Fleet.
@@ -17,8 +19,8 @@ Player: I wonder what I should do?
 title: TalkToEngineer
 position: 134,17
 ---
-
-<<camera  Basement>>
+<<fadeIn>>
+<<camera Base>>
 
 
 Engineer: Look who turned up.

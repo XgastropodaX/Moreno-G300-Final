@@ -17,7 +17,7 @@ public class SceneDirector : MonoBehaviour {
 
         // <<camera NAME_OF_LOCATION>>
         dialogueRunner.AddCommandHandler<Location>("camera", MoveCamera);
-        
+
         // <<fadeIn DURATION>> and <<fadeOut DURATION>>
         dialogueRunner.AddCommandHandler<float>("fadeIn", FadeIn);
         dialogueRunner.AddCommandHandler<float>("fadeOut", FadeOut);
