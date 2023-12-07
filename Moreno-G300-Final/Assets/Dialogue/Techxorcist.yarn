@@ -93,5 +93,35 @@ TECHXORCIST:...OK
 title: titlecard
 position: -1,-49
 ---
+hey, in case you literally download this for grading at 12 am everything requirementwise is fufilled. I'm going to keep working on the writing till class tomorrow.
+
+I had a lot of trouble with C and some family stuff so its been a struggle but everything works 
+
+check it out 
+
+<<fadeIn>>
+<<camera Yard>>
+<<place merlin Yard Left>>
+<<place merlin Yard Left>>
+
+
+
+<<place xorConflicted Yard Xor>>
+Merlin: Hi! Thank you for coming!
+<<camera Roof>>
+T3ch: Hey whats up!
+-> Not Much whats up with you
+-> What's cookin good lookin!
+    <<camera Kitchen>>
+    <<place xorConflicted Kitchen Xor>>
+    <<place Merlin Kitchen Hackerr>>
+Merlin: YOu! YUoure cookin!!
+<<camera Base>>
+<<place t3chidiot Base Demon>>
+<<place xorFlustrated Base Xor>>
+<<place merlin Base Hacker>>
+T3ch: Hey whats up ;p
+<<place xorDetermined Hell Prison>>
+<<place xorFlustrated Yard Xor>>
 
 ===
