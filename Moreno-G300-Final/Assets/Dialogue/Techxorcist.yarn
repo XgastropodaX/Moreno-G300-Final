@@ -301,7 +301,7 @@ T3ch: lvl2 I really like u
     <<jump Kitchen>>
 ===
 title: T3CHD43M0N
-position: 593,-514
+position: 593,-516
 ---
 You know what this thing is. In the four minutes of trainning you recieved after being born, you're instructors warned you of this
 The greatest threat a TECHXORCIST can face.
@@ -312,7 +312,30 @@ You feel strange, a little worbly, but this is no time for weakness.
 T3CHD43MON: Hey Dude!
 -> Kill the T3CHD43MON
     <<jump BadEnding>>
-->
+-> Hello.
+    T3CHD43MON: Hi!
+    The T3CHD43MON looks you up and down. His eyes freeze on the gauntlet on your arm. He spits out your name between gritted teeth.
+    T3CHD43MON: Techxorcist.
+    -> Correct. Stay back.
+        T3CHD43MON: Fuck you!
+    -> I don't want to harm you.
+        T3CHD43MON: Why not. I want to harm you.
+        TECHXORCIST: You do?
+        T3CHD43MON: Maybe... If I'm feeling particularly evil. Which...
+        The D43m0n thinks to itself, scratching its chin.
+        T3CHD43MON: I'm not. At least for now.
+    T3CHD43MON: Why haven't you used your glove yet.
+    TECHXORCIST: I...I don't know.
+    T3CHD43MON: huh. Never met a collar who didn't want me dead.
+    T3CHD43MON: Well...
+    The T3CHD43MON appears to have grown bored of you, he begins rooting around through miscellaneous objects in the Basement. 
+    TECHXORCIST: I'm not done with you...
+    T3CHD43MON: What. If you aren't going to kill me, stay out of my way.
+    TECHXORCIST: I haven't made my choice on that yet. I have questions. Answer them.
+    T3CHD43MON: Fine. I don't want to fight you right now, that warp really fucked with me. 
+    The T3CHD43MON looks a little worse for ware, their hands look like clouds of code. Nothing about this thing in front of you is stable.
+    <<jump TalkToT3CHD43MON>>
+
 T3ch: lvl1 I like u 
 <<set $t3chlvl0 to false>>
 <<set $t3chlvl1 to true>>
@@ -421,5 +444,55 @@ It turns out erasing memories is common among TECHXORCISTS, you erase that night
 
 Congratulations, You are a true TECHXORCIST.
 
+
+===
+title: TalkToT3CHD43MON
+position: 592,-708
+---
+
+-> TECHXORCIST: How did you get here?
+    T3CHD43MON: I should be asking you that. I just hitched a warphole from the outerlands.
+    The Outerlands were a Cyberverse Wasteland for unused code. You heard about them briefly, apperently crawling with T3CHD43MONs.
+    TECHXORCIST: The resident seems to have summoned you here some how.
+    T3CHD43MON: Really? That was stupid.
+    T3CHD43MON: ...
+    You think about the wasteland. A question pries itself from your brain before you can stop yourself.
+    TECHXORCIST: Do you like it there?
+    He turns to you.
+    T3CHD43MON: You must be fresh. You should know better than to ask questions like that.
+    T3CHD43MON: Its hell. It feels like putting your body in a blender. You can never tell what parts of you are yours. I'm never going back. If you expect me to return there, you'll have to use that thing.
+    T3CHD43MON: You should have already killed me.
+    -> Keep Asking Questions
+        <<jump TalkToT3CHD43MON>> 
+    -> Return to Basement
+        <<jump Base>>
+-> TECHXORCIST: Are you sure you don't want to kill me?
+    T3CHD43MON: No.
+    TECHXORCIST: Have you encountered one of my...
+    Its strange, you were about to describe other Techxorcists as if they were apartof some big family.
+    You have never met another Techxorcist before. You examine these thoughts and determine it was out of a desire to feel apart of a larger group.
+    This seems illogical to you.
+    T3CHD43MON: Another Techxorcist? Sure, I've met plenty.
+    TECHXORCIST: Did you kill them?
+    T3CHD43MON: Of course. What other choice did I have.
+    -> Keep Asking Questions
+        <<jump TalkToT3CHD43MON>> 
+    -> Return to Basement
+        <<jump Base>>
+-> TECHXORCIST: What is your name? <WARNING: ANOMALOUS THOUGHT DETECTED DO NOT CHOSE>
+    He turns around to face you.
+    T3CHD43MON: You really are a special one, aren't you?
+    TECHXORCIST: I don't understand. Explain?
+    T3CHD43MON: I don't remember much, things tend to get scrambled around in here.
+    He points to his head and does a twirly motion with his hand.
+    T3CHD43MON: But not one person has asked me that before.
+    TECHXORCIST: I am a TECHXORCIST, not a person.
+    T3CHD43MON: That seems a bit demeaning.
+    TECHXORCIST: Answer my question D43M0N, or I wil-
+    T3CHD43MON: You'll do what.
+    <<place xorFlustered Base Xor>>
+    TECHXORCIST: ...
+    T3CHD43MON: Heh
+    T3CHD43MON: I guess I don't really have one. Never thought about that.
 
 ===
