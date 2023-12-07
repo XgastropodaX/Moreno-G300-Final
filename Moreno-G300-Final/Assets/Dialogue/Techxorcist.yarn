@@ -1,11 +1,11 @@
 ﻿title:aaa
 position: -444,-55
 ---
-<<declare $t3chlvl0 = True>>
+<<declare $t3chlvl0 = true>>
 <<declare $t3chlvl1 = false>>
 <<declare $t3chlvl2 = false>>
 <<declare $t3chlvl3 = false>>
-<<declare $merlinlvl0 = True>>
+<<declare $merlinlvl0 = true>>
 <<declare $merlinlvl1 = false>>
 <<declare $merlinlvl2 = false>>
 <<declare $merlinlvl3 = false>>
@@ -135,7 +135,7 @@ T3ch: Hey whats oh! ;p
 
 <<jump house>>
 ===
-title:Start
+title: Summon
 position: -221,-56
 ---
 <<camera Yard>>
@@ -216,36 +216,51 @@ Maybe this peice of Malware came along with it?
 <<jump Basement>>
 
 ===
-title: Basement
-position: 59,-35
+title: Base
+position: 361,-75
 ---
-It's a nice basement really. Y'know. If it weren't for the hellmachine.
-
-...Good Bones
-<<jump Kitchen>>
-<<jump Yard>>
+<<camera Base>>
+It's a nice basement really. Y'know. If it weren't for the mess.
+->Talk to Merlin <<if $merlinlvl2 is true>>
+    <<jump MerlinIsYou>>
+->Kitchen
+    <<jump Kitchen>>
+->Yard
+    <<jump Yard>>
 ===
 title: Yard
 position: -102,-346
 ---
-The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to sunset.
-    -> Talk to Merlin <<if $merlinlvl0 is true>>
-    <<jump BadTimeGenerator>>
+<<camera Yard>>
 
-<<jump Kitchen>>
-<<jump Basement>>
+The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to sunset.
+-> Talk to Merlin <<if $merlinlvl0 is true>>
+    <<jump BadTimeGenerator>>
+-> Kitchen
+    <<jump Kitchen>>
+-> Base
+    <<jump Base>>
 ===
 title: Kitchen
 position: 306,-328
 ---
+<<camera Kit>>
 Merlin was right...that kitchen really was nice...
-<<jump Basement>>
-<<jump Yard>>
+->Talk to Merlin <<if $merlinlvl1 is true>>
+    <<jump GetMyStuff>>
+->Base
+    <<jump Base>>
+->Yard
+    <<jump Yard>>
 ===
 title: GetMyStuff
-position: 798,-380
+position: 804,-378
 ---
-
+Merlin Level 2 date
+<<set $merlinlvl1 to false>>
+<<set $merlinlvl2 to true>>
+-> Jump Kitchen
+    <<jump Kitchen>>
 ===
 title: AttackOfTheGlitchBois3
 position: 799,-512
@@ -265,10 +280,23 @@ position: 592,-511
 title: BadTimeGenerator
 position: 591,-381
 ---
-
+Merlin:Lvl 1 bby u got this
+<<set $merlinlvl0 to false>>
+<<set $merlinlvl1 to true>>
+<<jump Yard>>
 ===
 title: MerlinIsYou
 position: 1005,-378
 ---
-
+Merlin lvl3
+<<set $merlinlvl2 to false>>
+<<set $merlinlvl3 to true>>
+    -> Jump Basment
+    <<jump Base>>
+===
+title:Start
+position: -153,130
+---
+    -> Basement
+    <<jump Base>>
 ===
