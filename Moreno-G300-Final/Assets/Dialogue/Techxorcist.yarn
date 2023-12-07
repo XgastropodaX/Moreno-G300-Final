@@ -130,12 +130,27 @@ T3ch: Hey whats oh! ;p
 title:Start
 position: -25,72
 ---
-<<fadeIn>>
 <<camera Yard>>
 All the windows in the house are on when you get there. It looks like someone was waiting for you.
 <<place xorDevout Yard Xor>>
 The homeowner runs out to meet you.
 <<place merlin Yard Left>>
-
-
+???: HELLO!
+TECHXORCIST: ...
+???: I have a...Malware...Problem...
+TECHXORCIST: That is to be expected...
+Merlin: Y-yeah! Anyway...I'm Merlin!
+TECHXORCIST: ...
+Merlin: Well... It's an honor to meet you really. 
+//would honestly be a great place to put pronoun choice
+Merlin: I've never seen a Techxorcist in real life before!
+Merlin: I have s-so many questions, so like, ar-
+TECXORCIST: Show me to the malware.
+<<place merlin Hell Prison>>
+<<place merlinAngry Yard Left>>
+Merlin: But..
+TECXORCIST: Now.
+<<place merlinAngry Hell Prison>>
+<<place merlin Yard Left>>
+<<place merlin Hell Prison>>
 ===
