@@ -2,6 +2,7 @@
 position: -444,-55
 ---
 <<declare $t3chlvl0 = true>>
+<<declare $glitchboicount = 0>>
 <<declare $t3chlvl1 = false>>
 <<declare $t3chlvl2 = false>>
 <<declare $t3chlvl3 = false>>
@@ -246,6 +247,8 @@ The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to s
     <<jump LostInSpace>>
 ->Who are you looking for? <<if $t3chlvl2 is true>>
     <<jump AttackOfTheGlitchBois3>>
+->We got 'em <<if $glitchboicount eq 3>>
+    <<jump AttackOfTheGlitchBois3>>
 ->GLITCHBOI <<if $t3chlvl2 is true>>
     <<jump Glitchboi2>>
 -> Kitchen
@@ -254,7 +257,7 @@ The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to s
     <<jump Base>>
 ===
 title: Kitchen
-position: 306,-328
+position: 304,-297
 ---
 <<camera Kit>>
 Merlin was right...that kitchen really was nice...
@@ -270,7 +273,7 @@ Merlin was right...that kitchen really was nice...
     <<jump Yard>>
 ===
 title: GetMyStuff
-position: 799,-378
+position: 797,-380
 ---
 Merlin Level 2 date
 <<set $merlinlvl1 to false>>
@@ -279,7 +282,7 @@ Merlin Level 2 date
     <<jump Kitchen>>
 ===
 title: AttackOfTheGlitchBois3
-position: 1012,-510
+position: 1007,-510
 ---
 T3ch: lvl3 I really really like u 
 <<set $t3chlvl2 to false>>
@@ -331,30 +334,42 @@ position: -153,130
 title: TheRoof
 position: 1257,-585
 ---
-
+You got the t3ch ending
 ===
 title: LostInSpace
 position: 1255,-310
 ---
-
+You got the Merlin Ending
 ===
 title: RonaldReagan
 position: 1467,-450
 ---
-
+You got the reagan ending
 ===
 title: Glitchboi1
 position: 947,-151
 ---
-
+Glitchboi:You got me!
+-> Jump
+    <<jump Kitchen>>
 ===
 title: Glitchboi2
 position: 957,-8
 ---
-
+Glitchboi:You got me!
+-> Jump
+    <<jump Yard>>
 ===
 title: Glitchboi3
-position: 961,134
+position: 980,155
 ---
-
+Glitchboi:You got me!
+-> Jump
+    <<jump Base>>
+===
+title: boislayer
+position: 986,-667
+---
+WE got em ! 
+<<set t3chlvl3 to true>>
 ===
