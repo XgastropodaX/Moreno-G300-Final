@@ -1,9 +1,11 @@
 ﻿title:aaa
 position: -444,-55
 ---
+<<declare $t3chlvl0 = True>>
 <<declare $t3chlvl1 = false>>
 <<declare $t3chlvl2 = false>>
 <<declare $t3chlvl3 = false>>
+<<declare $merlinlvl0 = True>>
 <<declare $merlinlvl1 = false>>
 <<declare $merlinlvl2 = false>>
 <<declare $merlinlvl3 = false>>
@@ -134,7 +136,7 @@ T3ch: Hey whats oh! ;p
 <<jump house>>
 ===
 title:Start
-position: -205,-33
+position: -221,-56
 ---
 <<camera Yard>>
 All the windows in the house are on when you get there. It looks like someone was waiting for you.
@@ -217,13 +219,18 @@ Maybe this peice of Malware came along with it?
 title: Basement
 position: 59,-35
 ---
+It's a nice basement really. Y'know. If it weren't for the hellmachine.
 
+...Good Bones
 <<jump Kitchen>>
 <<jump Yard>>
 ===
 title: Yard
 position: -102,-346
 ---
+The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to sunset.
+    -> Talk to Merlin <<if $merlinlvl0 is true>>
+    <<jump BadTimeGenerator>>
 
 <<jump Kitchen>>
 <<jump Basement>>
@@ -231,7 +238,37 @@ position: -102,-346
 title: Kitchen
 position: 306,-328
 ---
-
+Merlin was right...that kitchen really was nice...
 <<jump Basement>>
 <<jump Yard>>
+===
+title: GetMyStuff
+position: 798,-380
+---
+
+===
+title: AttackOfTheGlitchBois3
+position: 799,-512
+---
+
+===
+title: TheChocolateMilkCut
+position: 1006,-513
+---
+
+===
+title: T3CHD43M0N
+position: 592,-511
+---
+
+===
+title: BadTimeGenerator
+position: 591,-381
+---
+
+===
+title: MerlinIsYou
+position: 1005,-378
+---
+
 ===
