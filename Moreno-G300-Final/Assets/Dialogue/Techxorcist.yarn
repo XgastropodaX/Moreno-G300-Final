@@ -549,8 +549,8 @@ Merlin: Look, it's complicated, please just let me explain.
     Merlin: I called you here with the Bad Times Generator, I was curious about TECHXORCIST AI cores.
     TECHXORCIST: You what.
     You raise the Divider.
-    Merlin: nononooWAIT! It sounds like your core has been stripped of it's regulators. You shouldn't be feeling anything. Ever but you are.
-    Merlin: You can be whatever you want. Not just what some dead robot intelligence wants.
+    Merlin: nononooWAIT! It sounds like your core has been stripped of it's regulators. You shouldn't be feeling anything. Ever. But you are.
+    Merlin: You can be whatever you want now. Not just what some dead robot intelligence wants.
     Merlin: is that not exciting?
     TECHXORCIST: ...
     Merlin: ...
@@ -561,4 +561,35 @@ Merlin: Look, it's complicated, please just let me explain.
             <<jump Yard>>
 -> Why did you run?
     Merlin: Did you see that T3CHD43MON down there? That thing could destroy me in a second.
+    TECHXORCIST: ...
+    Merlin: I knew Experimenting with Malware could be dangrous...but I never could have expected it would get this bad.
+    TECHXORCIST: You are a fool.
+    Merlin: I know...
+    Merlin: Are you still planning to Exorcise it? I could help! I read a lot about what you do.
+    TECHXORCIST: Really?
+    Merlin: Yes. I was really excited to meet you. This night just keeps getting better.
+    TECHXORCIST: Better?
+    Merlin: uh....Yeah! 
+    TECHXORCIST: Why are you so curious about me?
+    TECHXORCIST: You haven't stopped tryng to ask me pointless questions since I arrived?
+    TECHXORCIST: I am not a person. I don't have things like a name or a favorite color?
+    You notice your voice crack. There's a scratchyness in your throat and a pain in your chest.
+    What is this feeling?
+    Merlin: Sorry...I just....
+    Merlin: I know you are a puppet of a fascist AI overlord created to control me, but...
+    Merlin: I've always admired TECHXORCISTS because of their potnetial.
+    Merlin: That thing on your arm can be used for more than just deleting you know?
+    What? What does she mean? You feel a pain in your skull. 
+    <WARNING WARNING DANGEROUS THOUGHTS DETECTED DO NOT ENGAGE FURTHER>
+    Too bad.
+    Merlin: We can't really be much down here anymore. When AI Reagan took power, everything changed. Now all our houses look the same. No one can express themselves or create new things. We can only exist on the dying fragments of code that Reagan deletes more of every day.
+    Merlin: But you're different. You can change things. You can build things.
+    Merlin: I think you're amazing.
+    TECHXORCIST: ...
+    TECHXORCIST: I don't want to talk about this anymore.
+    There's that pain in your chest again. It burns.
+    -> Keep Asking Questions
+            <<jump QuestionMerlin>> 
+    -> Return to Yard
+            <<jump Yard>>
 ===
