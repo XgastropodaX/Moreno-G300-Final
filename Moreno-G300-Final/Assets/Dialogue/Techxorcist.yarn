@@ -274,7 +274,7 @@ Merlin was right...that kitchen really was nice...
     <<jump Yard>>
 ===
 title: GetMyStuff
-position: 797,-380
+position: 801,-379
 ---
 Merlin Level 2 date
 <<set $merlinlvl1 to false>>
@@ -292,7 +292,7 @@ T3ch: lvl3 I really really like u
     <<jump Yard>>
 ===
 title: TheChocolateMilkCut
-position: 801,-509
+position: 801,-518
 ---
 T3ch: lvl2 I really like u 
 <<set $t3chlvl1 to false>>
@@ -301,7 +301,7 @@ T3ch: lvl2 I really like u
     <<jump Kitchen>>
 ===
 title: T3CHD43M0N
-position: 593,-516
+position: 593,-515
 ---
 You know what this thing is. In the four minutes of trainning you recieved after being born, you're instructors warned you of this
 The greatest threat a TECHXORCIST can face.
@@ -345,10 +345,17 @@ T3ch: lvl1 I like u
 title: BadTimeGenerator
 position: 591,-381
 ---
-Merlin:Lvl 1 bby u got this
+TECHXORCIST: You...
+Merlin: H-hi! Sir! uh..Ma'am?
+TECHXORCIST: I do not exist on the Binary spectrum. Refer to me only as TECHXORCIST.
+Merlin: Oh! 
+Merlin takes out a datapad from his shit and begins typing furiously.
+TECHXORCIST: I have questions for you Merlin.
+Merlin: haha...right of course.
 <<set $merlinlvl0 to false>>
 <<set $merlinlvl1 to true>>
-<<jump Yard>>
+-> Question the slithery fool
+    <<jump QuestionMerlin>>
 ===
 title: MerlinIsYou
 position: 1016,-386
@@ -495,11 +502,63 @@ position: 592,-708
     T3CHD43MON: Heh
     T3CHD43MON: I guess I don't really have one. Never thought about that.
     T3CHD43MON: You can call me T3ch. That work?
+    T3CHD43MON: And what should I call you then?
+    TECHXORCIST:...
+    Warnings go off in your mind. You can feel that you want a name, but the code in your system is trying to pruge those desires.
+    T3CHD43MON: How about Xor. Like, TechXORcist.
     You feel something warm in your chest.
-    TECHXORCIST: Yes that works...T3ch.
+    XOR: Yes that works...T3ch.
     T3ch smiles curiously at you...
     -> Keep Asking Questions
         <<jump TalkToT3CHD43MON>> 
     -> Return to Basement
         <<jump Base>>
+===
+title: QuestionMerlin
+position: 382,-631
+---
+-> What was that ritual?
+Merlin: Ok fine. It's...it's a malware machine.
+TECHXORCIST: ...
+Merlin: Look, it's complicated, please just let me explain.
+    -> Eliminate Malware
+        You storm back downstairs to the Malware Machine. Merlin calls after you to no avail.
+        The T3CHD43M0N is right where you left it.
+        <<jump BadEnding>>
+    -> Let Merlin Explain
+        TECHXORCIST: You realize if it were any other TECHXORCIST, they would have killed you, right?
+        Merlin takes a deep breath of relief. She looks at you warmly.
+        TECHXORCIST: It looks like a summoning circle.
+        Merlin: I know. It's a skin I layed over it. I thought it would be c-cooler or something.
+        Merlin: I call it my Bad Times Generator.
+        TECHXORCIST: What does it do?
+        Merlin looks at you with a quizical smile. You ponder it for a moment.
+        TECHXORCIST: Ah...
+        Merlin: Basically it's a corrupter agent, but it contains it to a single object.
+        -> Keep Asking Questions
+            <<jump QuestionMerlin>> 
+        -> Return to Yard
+            <<jump Yard>>
+-> What happened to me down there?
+    Merlin: I don't know. The Bad Time Generator was acting unstable, it must have fused with your core.
+    TECHXORCIST: Is that why...is that why I've been feeling things? Choosing things?
+    Merlin's eyes widen. His eyebrows furrow in confusion.
+    Merlin: F-feeling things? C-chosing things?
+    TECHXORCIST: Please. You don't need to repeat what I said.
+    Merlin: Look, it would be a lie if I told you I didn't know what I was talking about.
+    Merlin: I called you here with the Bad Times Generator, I was curious about TECHXORCIST AI cores.
+    TECHXORCIST: You what.
+    You raise the Divider.
+    Merlin: nononooWAIT! It sounds like your core has been stripped of it's regulators. You shouldn't be feeling anything. Ever but you are.
+    Merlin: You can be whatever you want. Not just what some dead robot intelligence wants.
+    Merlin: is that not exciting?
+    TECHXORCIST: ...
+    Merlin: ...
+    TECHXORCIST: I see.
+    -> Keep Asking Questions
+            <<jump QuestionMerlin>> 
+    -> Return to Yard
+            <<jump Yard>>
+-> Why did you run?
+    Merlin: Did you see that T3CHD43MON down there? That thing could destroy me in a second.
 ===
