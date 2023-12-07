@@ -223,7 +223,7 @@ position: 361,-75
 It's a nice basement really. Y'know. If it weren't for the mess.
 ->Talk to Merlin <<if $merlinlvl2 is true>>
     <<jump MerlinIsYou>>
-->Talk to Merlin <<if $merlinlvl0 is true>>
+->Talk to T3ch <<if $t3chlvl0 is true>>
     <<jump T3CHD43M0N>>
 ->Kitchen
     <<jump Kitchen>>
@@ -238,6 +238,8 @@ position: -102,-346
 The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to sunset.
 -> Talk to Merlin <<if $merlinlvl0 is true>>
     <<jump BadTimeGenerator>>
+->Who are you looking for? <<if $t3chlvl2 is true>>
+    <<jump AttackOfTheGlitchBois3>>
 -> Kitchen
     <<jump Kitchen>>
 -> Base
@@ -250,6 +252,8 @@ position: 306,-328
 Merlin was right...that kitchen really was nice...
 ->Talk to Merlin <<if $merlinlvl1 is true>>
     <<jump GetMyStuff>>
+->Look at t3ch drinking chocolate milk <<if $t3chlvl1 is true>>
+    <<jump TheChocolateMilkCut>>
 ->Base
     <<jump Base>>
 ->Yard
@@ -283,7 +287,7 @@ T3ch: lvl2 I really like u
     <<jump Base>>
 ===
 title: T3CHD43M0N
-position: 586,-514
+position: 593,-514
 ---
 T3ch: lvl1 I like u 
 <<set $t3chlvl0 to false>>
