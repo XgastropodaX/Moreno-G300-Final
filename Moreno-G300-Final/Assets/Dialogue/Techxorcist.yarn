@@ -1,7 +1,13 @@
 ﻿title:aaa
-position: -313,-59
+position: -444,-55
 ---
-<<fadeIn>>
+<<declare $t3chlvl1 = false>>
+<<declare $t3chlvl2 = false>>
+<<declare $t3chlvl3 = false>>
+<<declare $merlinlvl1 = false>>
+<<declare $merlinlvl2 = false>>
+<<declare $merlinlvl3 = false>>
+
 <<camera Hell>>
 In the distant future, after nuclear holocaust had consumed most of the planet,
 Humanity fled to The Cyberverse, a final bastion for human life.
@@ -91,7 +97,7 @@ TECHXORCIST:...OK
 <<jump house>>
 ===
 title: titlecard
-position: -44,-183
+position: -369,-375
 ---
 hey, in case you literally download this for grading at 12 am everything requirementwise is fufilled. I'm going to keep working on the writing till class tomorrow.
 
@@ -128,7 +134,7 @@ T3ch: Hey whats oh! ;p
 <<jump house>>
 ===
 title:Start
-position: -25,72
+position: -205,-33
 ---
 <<camera Yard>>
 All the windows in the house are on when you get there. It looks like someone was waiting for you.
@@ -170,4 +176,62 @@ Merlin: ...sorry
 <<place xorDevout Base Xor>>
 <<place merlinJoy Base Hacker>>
 
+You enter the basement.
+On the floor there is a strange ritual currently being enacted.
+You hear a whistling hum and a Banana appears to be floating ominously in a cloud of light.
+TECXORCIST: ...
+Merlin looks guiltily at you. You are trained to recognize this.
+Merlin: Ok...  
+Merlin: I have a confession to make....
+TECXORCIST: ... What is that?
+Merlin: P-please just listen okay?
+You don't consider listening for even a moment.
+You reach forward with the Divider, feeling it rumble on your arm.
+You touch the ritual device and a massive shower of data and distortion explodes from the device.
+
+<<camera Hell>>
+<<place merlinShook Base Hacker>>
+You feel something inside you change.
+Do you understand what has changed?
+    -> TECXORCIST: Yes
+        Good. Be Happy.
+    -> TECXORCIST: No
+        Thats Okay...you don't have to understand it...
+        You just have to feel it...
+<<camera Base>>
+<<place xorConflicted Base Xor>>
+<<place xorDevout Hell Prison>>
+<<place t3chdenied Base Demon>>
+
+Merlin:ahhhhhhHHHHHHHH!!!!!!
+???:RAHHHHHHHHHHH!!!!!!!!!!!!!!!!!!
+Merlin:AHHHHHHHH!!!!!!!!
+Merlin Runs from the basement.
+There is a stranger in the room. You check your devider. 
+This appears to be more than a simple peice of Malware.
+Something happened when you touched that device, some sort of download.
+Maybe this peice of Malware came along with it?
+<<jump Basement>>
+
+===
+title: Basement
+position: 59,-35
+---
+
+<<jump Kitchen>>
+<<jump Yard>>
+===
+title: Yard
+position: -102,-346
+---
+
+<<jump Kitchen>>
+<<jump Basement>>
+===
+title: Kitchen
+position: 306,-328
+---
+
+<<jump Basement>>
+<<jump Yard>>
 ===
