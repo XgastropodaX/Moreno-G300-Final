@@ -217,7 +217,7 @@ Maybe this peice of Malware came along with it?
 
 ===
 title: Base
-position: 361,-75
+position: 403,-65
 ---
 <<camera Base>>
 It's a nice basement really. Y'know. If it weren't for the mess.
@@ -225,6 +225,10 @@ It's a nice basement really. Y'know. If it weren't for the mess.
     <<jump MerlinIsYou>>
 ->Talk to T3ch <<if $t3chlvl0 is true>>
     <<jump T3CHD43M0N>>
+->Talk to T3ch <<if $t3chlvl3 is true>>
+    <<jump TheRoof>>
+->GLITCHBOI <<if $t3chlvl2 is true>>
+    <<jump Glitchboi3>>
 ->Kitchen
     <<jump Kitchen>>
 ->Yard
@@ -238,8 +242,12 @@ position: -102,-346
 The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to sunset.
 -> Talk to Merlin <<if $merlinlvl0 is true>>
     <<jump BadTimeGenerator>>
+-> Talk to Merlin <<if $merlinlvl3 is true>>
+    <<jump LostInSpace>>
 ->Who are you looking for? <<if $t3chlvl2 is true>>
     <<jump AttackOfTheGlitchBois3>>
+->GLITCHBOI <<if $t3chlvl2 is true>>
+    <<jump Glitchboi2>>
 -> Kitchen
     <<jump Kitchen>>
 -> Base
@@ -254,6 +262,8 @@ Merlin was right...that kitchen really was nice...
     <<jump GetMyStuff>>
 ->Look at t3ch drinking chocolate milk <<if $t3chlvl1 is true>>
     <<jump TheChocolateMilkCut>>
+->GLITCHBOI <<if $t3chlvl2 is true>>
+    <<jump Glitchboi1>>
 ->Base
     <<jump Base>>
 ->Yard
@@ -274,17 +284,17 @@ position: 1012,-510
 T3ch: lvl3 I really really like u 
 <<set $t3chlvl2 to false>>
 <<set $t3chlvl3 to true>>
--> Jump Basement 
-    <<jump Base>>
+-> Jump Yard 
+    <<jump Yard>>
 ===
 title: TheChocolateMilkCut
-position: 803,-511
+position: 801,-509
 ---
 T3ch: lvl2 I really like u 
 <<set $t3chlvl1 to false>>
 <<set $t3chlvl2 to true>>
--> Jump Basement 
-    <<jump Base>>
+-> Kitchen 
+    <<jump Kitchen>>
 ===
 title: T3CHD43M0N
 position: 593,-514
@@ -317,4 +327,34 @@ position: -153,130
 ---
 -> Basement
     <<jump Base>>
+===
+title: TheRoof
+position: 1257,-585
+---
+
+===
+title: LostInSpace
+position: 1255,-310
+---
+
+===
+title: RonaldReagan
+position: 1467,-450
+---
+
+===
+title: Glitchboi1
+position: 947,-151
+---
+
+===
+title: Glitchboi2
+position: 957,-8
+---
+
+===
+title: Glitchboi3
+position: 961,134
+---
+
 ===
