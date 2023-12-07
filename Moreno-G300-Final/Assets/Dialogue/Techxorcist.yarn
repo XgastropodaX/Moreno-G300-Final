@@ -223,6 +223,8 @@ position: 361,-75
 It's a nice basement really. Y'know. If it weren't for the mess.
 ->Talk to Merlin <<if $merlinlvl2 is true>>
     <<jump MerlinIsYou>>
+->Talk to Merlin <<if $merlinlvl0 is true>>
+    <<jump T3CHD43M0N>>
 ->Kitchen
     <<jump Kitchen>>
 ->Yard
@@ -254,7 +256,7 @@ Merlin was right...that kitchen really was nice...
     <<jump Yard>>
 ===
 title: GetMyStuff
-position: 804,-378
+position: 799,-378
 ---
 Merlin Level 2 date
 <<set $merlinlvl1 to false>>
@@ -263,19 +265,27 @@ Merlin Level 2 date
     <<jump Kitchen>>
 ===
 title: AttackOfTheGlitchBois3
-position: 799,-512
+position: 1012,-510
 ---
 
 ===
 title: TheChocolateMilkCut
-position: 1006,-513
+position: 803,-511
 ---
-
+T3ch: lvl1 I like u 
+<<set $t3chlvl1 to false>>
+<<set $t3chlvl2 to true>>
+-> Jump Basement 
+    <<jump Base>>
 ===
 title: T3CHD43M0N
-position: 592,-511
+position: 586,-514
 ---
-
+T3ch: lvl1 I like u 
+<<set $t3chlvl0 to false>>
+<<set $t3chlvl1 to true>>
+-> Jump Basement 
+    <<jump Base>>
 ===
 title: BadTimeGenerator
 position: 591,-381
@@ -291,12 +301,12 @@ position: 1005,-378
 Merlin lvl3
 <<set $merlinlvl2 to false>>
 <<set $merlinlvl3 to true>>
-    -> Jump Basment
+-> Jump Basment
     <<jump Base>>
 ===
 title:Start
 position: -153,130
 ---
-    -> Basement
+-> Basement
     <<jump Base>>
 ===
