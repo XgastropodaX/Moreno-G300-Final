@@ -303,6 +303,16 @@ T3ch: lvl2 I really like u
 title: T3CHD43M0N
 position: 593,-514
 ---
+You know what this thing is. In the four minutes of trainning you recieved after being born, you're instructors warned you of this
+The greatest threat a TECHXORCIST can face.
+a T3CHD43M0N
+You have to spell it that way.
+If you don't a T3CHD43MON will get you IP address and start sending you chain emails.
+You feel strange, a little worbly, but this is no time for weakness.
+T3CHD43MON: Hey Dude!
+-> Kill the T3CHD43MON
+    <<jump BadEnding>>
+->
 T3ch: lvl1 I like u 
 <<set $t3chlvl0 to false>>
 <<set $t3chlvl1 to true>>
@@ -376,4 +386,40 @@ WE got em !
 <<set $t3chlvl4 to true>>
 -> t3ch: Thanks!
     <<jump Yard>>
+===
+title: Node
+position: 327,368
+---
+
+===
+title: BadEnding
+position: 596,174
+---
+You level your Divider at the monster.
+
+T3CHD43M0N: Hey. I haven't even done any-
+
+You divide the unholy creature by zero, reducing the monster to shimering lines of code.
+Somewhere, a monitor disconnects from the Cyberverse, it's user Braindead.
+
+Despite Merlin's requests for you to stay and chat with them. You destroy the strange ritual circle.
+
+A message pops up on your visor.
+
+AI Ronald Reagan: Be sure to dispose of everything connected to the source. There is no margin for error.
+
+You turn your gauntlet to the home, destroying it, before approaching Merlin in the yard.
+
+Merlin: Wait..what did you do? W-why?
+They look afraid of you. This bothers you. You hesitate, but only for a moment.
+
+After the entire site is purged, you return to neural HQ.
+
+You still remember the strange connection when you reached for the ritual circle, how it made you feel things you had never felt before.
+You would spend the rest of your life wondering that, or so you thought.
+It turns out erasing memories is common among TECHXORCISTS, you erase that night and never queston yourself again.
+
+Congratulations, You are a true TECHXORCIST.
+
+
 ===
