@@ -6,6 +6,7 @@ position: -444,-55
 <<declare $t3chlvl1 = false>>
 <<declare $t3chlvl2 = false>>
 <<declare $t3chlvl3 = false>>
+<<declare $t3chlvl4 = false>>
 <<declare $merlinlvl0 = true>>
 <<declare $merlinlvl1 = false>>
 <<declare $merlinlvl2 = false>>
@@ -218,7 +219,7 @@ Maybe this peice of Malware came along with it?
 
 ===
 title: Base
-position: 403,-65
+position: 317,-53
 ---
 <<camera Base>>
 It's a nice basement really. Y'know. If it weren't for the mess.
@@ -226,9 +227,9 @@ It's a nice basement really. Y'know. If it weren't for the mess.
     <<jump MerlinIsYou>>
 ->Talk to T3ch <<if $t3chlvl0 is true>>
     <<jump T3CHD43M0N>>
-->Talk to T3ch <<if $t3chlvl3 is true>>
+->Talk to T3ch <<if $t3chlvl4 is true>>
     <<jump TheRoof>>
-->GLITCHBOI <<if $t3chlvl2 is true>>
+->GLITCHBOI <<if $t3chlvl3 is true>>
     <<jump Glitchboi3>>
 ->Kitchen
     <<jump Kitchen>>
@@ -248,8 +249,8 @@ The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to s
 ->Who are you looking for? <<if $t3chlvl2 is true>>
     <<jump AttackOfTheGlitchBois3>>
 ->We got 'em <<if $glitchboicount eq 3>>
-    <<jump AttackOfTheGlitchBois3>>
-->GLITCHBOI <<if $t3chlvl2 is true>>
+    <<jump boislayer>>
+->GLITCHBOI <<if $t3chlvl3 is true>>
     <<jump Glitchboi2>>
 -> Kitchen
     <<jump Kitchen>>
@@ -257,7 +258,7 @@ The Sunsets look beautifully artificial. It seems Merlin has it alwasys set to s
     <<jump Base>>
 ===
 title: Kitchen
-position: 304,-297
+position: 250,-293
 ---
 <<camera Kit>>
 Merlin was right...that kitchen really was nice...
@@ -265,7 +266,7 @@ Merlin was right...that kitchen really was nice...
     <<jump GetMyStuff>>
 ->Look at t3ch drinking chocolate milk <<if $t3chlvl1 is true>>
     <<jump TheChocolateMilkCut>>
-->GLITCHBOI <<if $t3chlvl2 is true>>
+->GLITCHBOI <<if $t3chlvl3 is true>>
     <<jump Glitchboi1>>
 ->Base
     <<jump Base>>
@@ -282,7 +283,7 @@ Merlin Level 2 date
     <<jump Kitchen>>
 ===
 title: AttackOfTheGlitchBois3
-position: 1007,-510
+position: 1009,-516
 ---
 T3ch: lvl3 I really really like u 
 <<set $t3chlvl2 to false>>
@@ -317,7 +318,7 @@ Merlin:Lvl 1 bby u got this
 <<jump Yard>>
 ===
 title: MerlinIsYou
-position: 1005,-378
+position: 1016,-386
 ---
 Merlin lvl3
 <<set $merlinlvl2 to false>>
@@ -325,7 +326,7 @@ Merlin lvl3
 -> Jump Basment
     <<jump Base>>
 ===
-title:Start
+title: Start
 position: -153,130
 ---
 -> Basement
@@ -357,6 +358,7 @@ title: Glitchboi2
 position: 957,-8
 ---
 Glitchboi:You got me!
+<<set $glitchboicount += 1>>
 -> Jump
     <<jump Yard>>
 ===
@@ -368,8 +370,10 @@ Glitchboi:You got me!
     <<jump Base>>
 ===
 title: boislayer
-position: 986,-667
+position: 987,-668
 ---
 WE got em ! 
-<<set t3chlvl3 to true>>
+<<set $t3chlvl4 to true>>
+-> t3ch: Thanks!
+    <<jump Yard>>
 ===
