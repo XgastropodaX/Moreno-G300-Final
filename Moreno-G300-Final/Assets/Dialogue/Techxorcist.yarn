@@ -292,9 +292,29 @@ T3ch: lvl3 I really really like u
     <<jump Yard>>
 ===
 title: TheChocolateMilkCut
-position: 801,-518
+position: 802,-518
 ---
-T3ch: lvl2 I really like u 
+You see T3ch standing in the kitchen.
+There are scraps of peeled fruit and opened candy wrappers scattered.
+He is standing vigilently in front of a Microwave, watching something spin inside a large glass bowl.
+He quickly spins, pacing the kitchen, still not facing you, before grabbinganother apple from the shelf and eating most of it in three large bites.
+T3ch's teeth are sharp.
+When he pulls the apple from his mouth the core is corrupted and glitchy.
+The Microwave goes off, he quickly throws the door open and grabs the bowl inside.
+He lets the sticky content of the bowl, which you now realize is chocolate, drip into the a large flowervase full of milk.
+The flowers are also on the floor.
+T3ch mixes the melted chocolate bars with the flower vase milk.
+When it reaches a pleasurable consistently T3ch chugs the vase.
+
+Xor: T3ch?
+T3ch jumps, their robotic legs scrambling to rebalance themself, T3ch spraws chocolate milk all over the wall like a cartoon character.
+You laugh. You genuinely laugh.
+There is a warm feeling in your head and your voice sounds melodical.
+Beautiful.
+T3ch: FUCK
+The vase slips from their hands and shatters on the floor, covering the arleady messy kitchen in an additional layer of waste.
+
+God: THIS IS ALL THATS DONE RIGHT NOW. THE REST IS PLACEHOLDER. THANKS FOR PLAYING!
 <<set $t3chlvl1 to false>>
 <<set $t3chlvl2 to true>>
 -> Kitchen 
@@ -454,7 +474,7 @@ Congratulations, You are a true TECHXORCIST.
 
 ===
 title: TalkToT3CHD43MON
-position: 592,-708
+position: 593,-708
 ---
 
 -> TECHXORCIST: How did you get here?
