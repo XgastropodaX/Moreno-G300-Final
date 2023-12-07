@@ -1,4 +1,4 @@
-﻿title:aaa
+﻿title:Startt
 position: -444,-55
 ---
 <<declare $t3chlvl0 = true>>
@@ -98,7 +98,7 @@ AI Ronald Reagan: And if you have any doubt remember therse words...
 
 TECHXORCIST:...OK
 
-<<jump house>>
+<<jump Summon>>
 ===
 title: titlecard
 position: -369,-375
@@ -211,11 +211,12 @@ Merlin:ahhhhhhHHHHHHHH!!!!!!
 ???:RAHHHHHHHHHHH!!!!!!!!!!!!!!!!!!
 Merlin:AHHHHHHHH!!!!!!!!
 Merlin Runs from the basement.
+<<place merlinShook Hell Prison>>
 There is a stranger in the room. You check your devider. 
 This appears to be more than a simple peice of Malware.
 Something happened when you touched that device, some sort of download.
 Maybe this peice of Malware came along with it?
-<<jump Basement>>
+<<jump Base>>
 
 ===
 title: Base
@@ -330,12 +331,19 @@ You have to spell it that way.
 If you don't a T3CHD43MON will get you IP address and start sending you chain emails.
 You feel strange, a little worbly, but this is no time for weakness.
 T3CHD43MON: Hey Dude!
+
+<<place t3chdenied Hell Prison>>
+<<place t3chbleh Base Demon>>
+<<place xorConflicted Hell Prison>>
+<<place xorDetermined Base Xor>>
 -> Kill the T3CHD43MON
     <<jump BadEnding>>
 -> Hello.
     T3CHD43MON: Hi!
+    <<place t3chBleh Base Demon>>
     The T3CHD43MON looks you up and down. His eyes freeze on the gauntlet on your arm. He spits out your name between gritted teeth.
     T3CHD43MON: Techxorcist.
+    
     -> Correct. Stay back.
         T3CHD43MON: Fuck you!
     -> I don't want to harm you.
@@ -343,6 +351,8 @@ T3CHD43MON: Hey Dude!
         TECHXORCIST: You do?
         T3CHD43MON: Maybe... If I'm feeling particularly evil. Which...
         The D43m0n thinks to itself, scratching its chin.
+        <<place t3chbleh Hell Prison>>
+        <<place t3chdenied Base Demon>>
         T3CHD43MON: I'm not. At least for now.
     T3CHD43MON: Why haven't you used your glove yet.
     TECHXORCIST: I...I don't know.
@@ -387,7 +397,7 @@ Merlin lvl3
     <<jump Base>>
 ===
 title: Start
-position: -153,130
+position: -153,128
 ---
 -> Basement
     <<jump Base>>
@@ -481,12 +491,18 @@ position: 593,-708
     T3CHD43MON: I should be asking you that. I just hitched a warphole from the outerlands.
     The Outerlands were a Cyberverse Wasteland for unused code. You heard about them briefly, apperently crawling with T3CHD43MONs.
     TECHXORCIST: The resident seems to have summoned you here some how.
+    <<place t3chbleh Hell Prison>>
+    <<place t3chidiot Base Demon>>
     T3CHD43MON: Really? That was stupid.
     T3CHD43MON: ...
     You think about the wasteland. A question pries itself from your brain before you can stop yourself.
     TECHXORCIST: Do you like it there?
     He turns to you.
+    <<place t3chbleh Hell Prison>>
+    <<place t3chdenied Base Demon>>
     T3CHD43MON: You must be fresh. You should know better than to ask questions like that.
+    <<place xorDetermined Hell Prison>>
+    <<place xorConflicted Base Xor>>
     T3CHD43MON: Its hell. It feels like putting your body in a blender. You can never tell what parts of you are yours. I'm never going back. If you expect me to return there, you'll have to use that thing.
     T3CHD43MON: You should have already killed me.
     -> Keep Asking Questions
@@ -535,7 +551,7 @@ position: 593,-708
         <<jump Base>>
 ===
 title: QuestionMerlin
-position: 382,-631
+position: 295,-631
 ---
 -> What was that ritual?
 Merlin: Ok fine. It's...it's a malware machine.
