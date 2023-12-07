@@ -1,5 +1,5 @@
-﻿title: Start
-position: -200,-1
+﻿title:Start
+position: -313,-59
 ---
 <<fadeIn>>
 <<camera Hell>>
@@ -36,11 +36,13 @@ AI Ronald Reagan: There will be no more glitches, virus's or malware ever again
 
 AI Ronald Reagan: even the cool ones...
 
-Reagan established an army of holy digital warriors,
+Reagan established an army of holy digital warriors, inhuman, calculating creatures of raw data.
 
 From that day forward, AI Ronald Reagan and his legion of TECHXORCISTS ruled the Cyberverse with an iron first.
 
 To bring GOD...and the AMERICAN DREAM...to the modern world.
+
+<<place Reagan Hell Prison>>
 
 YOU.
 
@@ -52,5 +54,44 @@ Which means...
 
 Today is your Birthday...Happy Birthday. 
 
+AI Ronald Reagan: Alright. Hello TECHXORCIST
+
+AI Ronald Reagan: We got a call about some unsanctioned malware in the commercial district about an hour ago.
+
+AI Ronald Reagan: We usually don't send TECHXORCISTS out this early but eh, what the hell.
+
+AI Ronald Reagan: On your arm is a weapon called "The Divider"
+
+AI Ronald Reagan: It lets you purge malware.
+
+AI Ronald Reagan: Remember the creed. 
+
+AI Ronald Reagan:KILL ANYTHING STRANGE
+
+AI Ronald Reagan: And try not to freak out. You're still fresh so if you notice anything strange, like feeling emotions. 
+
+AI Ronald Reagan: Let us know and we'll...help...
+
+<<place Reagan Hell Balls>>
+
+
+
+AI Ronald Reagan:MUAHAHAHAHAHAHAHAHA
+
+<<place Reagan Hell Prison>>
+
+AI Ronald Reagan: And if you have any doubt remember therse words...
+
 "The trouble with our Liberal friends is not that they're ignorant; it's just that they know so much that isn't so."
+
+- Ronald Reagan
+
+TECHXORCIST:...OK
+
+<<jump titlecard>>
+===
+title: titlecard
+position: -1,-49
+---
+
 ===
