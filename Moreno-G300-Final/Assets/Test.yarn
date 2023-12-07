@@ -1,0 +1,65 @@
+﻿title: Start
+position: -200,-1
+---
+<<fadeIn>>
+<<camera Yard>>
+<<place merlin Yard Left>>
+<<place merlin Yard Left>>
+
+<<declare $ohmy = true>>
+
+
+<<place xorConflicted Yard Xor>>
+Merlin: Hi! Thank you for coming!
+<<camera Roof>>
+<<place xorConflicted Kitchen Xor>>
+<<place t3chidiot Base Demon>>
+<<place xorFlustrated Base Xor>>
+<<place merlin Base Hacker>>
+Player: Today's my rotation to Engineering. I hate Engineering.
+<<place xorDetermined Hell Prison>>
+<<place xorFlustrated Yard Xor>>
+Player: All I dream of is going on an away mission.
+Player: I wonder what I should do? 
+
+    -> Go and talk to the Captain
+        <<jump TalkToEngineer>>
+===
+title: TalkToEngineer
+position: 134,17
+---
+101.004 -154.686 0
+<<fadeIn>>
+<<camera Kitchen>>
+
+<<place t3chfuck Base Demon>>
+<<place merlin Base Hacker>>
+
+Engineer: Look who turned up.
+Engineer: Honestly, you never feel like you want to be here. 
+Engineer: What's your problem?
+    -> I slept in.
+        Engineer: Some of us have a job to do.
+    -> I hate engines.
+        Engineer: I trained as a cook. I'm meant to be slinging Space Paste™, not repairing.. whatever this is.
+        Player: ... an engine. It's an engine.
+        Engineer: Right, yes, I'm meant to be cooking, not repairing engines. Sorry forgot for a sec.
+    -> I have an overwhelming attraction to engines.
+        Engineer: It'll never love you back. Trust me, we've all been there.
+Engineer: Anyway, the engine is busted. The... juice.... is full, but it won't go anywhere.
+
+Engineer: The whole ship is falling apart.
+
+Engineer: We should never have sold the Space Fleet to Space Paste™ Incorporated. 
+Engineer: Can you pass me a...
+
+
+Intercom: Alert. Alert. Senior staff to the bridge.
+Engineer: What now? Probably need someone to fill in for the cook again. 
+
+Engineer: Seeing as how I'm the cook. And I'm also the Senior Engineer. Hah.
+Player: See ya later..
+Engineer: I'm coming too! If there's excitement I want to be there.
+Engineer: So I know what I'm running away from...
+
+===
