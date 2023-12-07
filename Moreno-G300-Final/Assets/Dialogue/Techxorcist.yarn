@@ -267,12 +267,16 @@ Merlin Level 2 date
 title: AttackOfTheGlitchBois3
 position: 1012,-510
 ---
-
+T3ch: lvl3 I really really like u 
+<<set $t3chlvl2 to false>>
+<<set $t3chlvl3 to true>>
+-> Jump Basement 
+    <<jump Base>>
 ===
 title: TheChocolateMilkCut
 position: 803,-511
 ---
-T3ch: lvl1 I like u 
+T3ch: lvl2 I really like u 
 <<set $t3chlvl1 to false>>
 <<set $t3chlvl2 to true>>
 -> Jump Basement 
