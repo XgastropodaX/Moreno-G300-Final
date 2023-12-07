@@ -1,4 +1,4 @@
-﻿title:Start
+﻿title:aaa
 position: -313,-59
 ---
 <<fadeIn>>
@@ -88,7 +88,7 @@ AI Ronald Reagan: And if you have any doubt remember therse words...
 
 TECHXORCIST:...OK
 
-<<jump titlecard>>
+<<jump house>>
 ===
 title: titlecard
 position: -44,-183
@@ -127,8 +127,15 @@ T3ch: Hey whats oh! ;p
 
 <<jump house>>
 ===
-title: house
+title:Start
 position: -25,72
 ---
+<<fadeIn>>
+<<camera Yard>>
+All the windows in the house are on when you get there. It looks like someone was waiting for you.
+<<place xorDevout Yard Xor>>
+The homeowner runs out to meet you.
+<<place merlin Yard Left>>
+
 
 ===
