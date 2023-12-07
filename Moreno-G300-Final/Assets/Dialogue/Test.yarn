@@ -11,9 +11,11 @@ position: -200,-1
 
 <<place xorConflicted Yard Xor>>
 Merlin: Hi! Thank you for coming!
-<<camera Kitchen>>
+<<camera Roof>>
 <<place xorConflicted Kitchen Xor>>
-<<place xorDetermined Yard Xor>>
+<<place t3chidiot Base Demon>>
+<<place xorFlustrated Base Xor>>
+<<place merlin Base Hacker>>
 Player: Today's my rotation to Engineering. I hate Engineering.
 <<place xorDetermined Hell Prison>>
 <<place xorFlustrated Yard Xor>>
@@ -29,7 +31,7 @@ position: 134,17
 101.004 -154.686 0
 <<fadeIn>>
 <<camera Kitchen>>
-<<place xorFlustrated Base Xor>>
+
 <<place t3chfuck Base Demon>>
 <<place merlin Base Hacker>>
 
