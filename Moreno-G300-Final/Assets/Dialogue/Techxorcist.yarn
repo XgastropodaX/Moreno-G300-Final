@@ -494,5 +494,12 @@ position: 592,-708
     TECHXORCIST: ...
     T3CHD43MON: Heh
     T3CHD43MON: I guess I don't really have one. Never thought about that.
-
+    T3CHD43MON: You can call me T3ch. That work?
+    You feel something warm in your chest.
+    TECHXORCIST: Yes that works...T3ch.
+    T3ch smiles curiously at you...
+    -> Keep Asking Questions
+        <<jump TalkToT3CHD43MON>> 
+    -> Return to Basement
+        <<jump Base>>
 ===
