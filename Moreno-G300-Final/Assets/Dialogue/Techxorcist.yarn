@@ -91,7 +91,7 @@ TECHXORCIST:...OK
 <<jump titlecard>>
 ===
 title: titlecard
-position: -1,-49
+position: -44,-183
 ---
 hey, in case you literally download this for grading at 12 am everything requirementwise is fufilled. I'm going to keep working on the writing till class tomorrow.
 
@@ -123,5 +123,12 @@ Merlin: YOu! YUoure cookin!!
 T3ch: Hey whats oh! ;p
 <<place xorDetermined Hell Prison>>
 <<place xorFlustrated Yard Xor>>
+
+
+<<jump house>>
+===
+title: house
+position: -25,72
+---
 
 ===
