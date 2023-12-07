@@ -1634,10 +1634,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 141050834}
+  - component: {fileID: 141050835}
   m_Layer: 0
   m_Name: Hacker
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1656,6 +1657,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2131741342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &141050835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141050833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5d021472590fc408585f54bf03831e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions: []
+  faceRenderer: {fileID: 0}
+  faceMaterialIndex: 0
 --- !u!1 &142777255
 GameObject:
   m_ObjectHideFlags: 0
@@ -3664,7 +3680,7 @@ GameObject:
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5072,10 +5088,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 517407091}
+  - component: {fileID: 517407092}
   m_Layer: 0
   m_Name: Xor
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5094,6 +5111,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2131741342}
   m_LocalEulerAnglesHint: {x: 90, y: -213.377, z: 0}
+--- !u!114 &517407092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517407090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5d021472590fc408585f54bf03831e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions: []
+  faceRenderer: {fileID: 0}
+  faceMaterialIndex: 0
 --- !u!1 &517691176
 GameObject:
   m_ObjectHideFlags: 0
@@ -10624,10 +10656,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1281954578}
+  - component: {fileID: 1281954579}
   m_Layer: 0
   m_Name: Demon
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -10646,6 +10679,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2131741342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1281954579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281954577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5d021472590fc408585f54bf03831e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions: []
+  faceRenderer: {fileID: 0}
+  faceMaterialIndex: 0
 --- !u!1 &1285935664
 GameObject:
   m_ObjectHideFlags: 0
@@ -13953,11 +14001,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2131741342}
   - {fileID: 1901731142}
   - {fileID: 1061867908}
   - {fileID: 1486637990}
   - {fileID: 1899000145}
-  - {fileID: 2131741342}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1634411605
@@ -16972,9 +17020,9 @@ GameObject:
   - component: {fileID: 2131741342}
   - component: {fileID: 2131741343}
   m_Layer: 0
-  m_Name: Kitchen
+  m_Name: Kit
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

@@ -155,7 +155,19 @@ TECXORCIST: Now.
 Merlin: Right..of course um...
 <<place merlin Hell Prison>>
 
-<<camera Kitchen>>
-<<place xorDevout Kitchen Xor>>
+<<camera Kit>>
+<<place xorDevout Kit Xor>>
+<<place merlinJoy Kit Hacker>>
+Merlin: Here's the kitchen!
+There is a very well put together Kitchen in front of you. Merlin frantically throws open cabinets full of spices and fresh produce.
+Merlin: I cook here! I know we don't have to eat anymore bu-
+They Ramble on.
+It seems like this person does not want to show you your objective.
+TECXORCIST: I don't detect Malware in this room.
+Merlin: ...sorry
+
+<<camera Base>>
+<<place xorDevout Base Xor>>
+<<place merlinJoy Base Hacker>>
 
 ===
