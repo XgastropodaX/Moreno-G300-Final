@@ -1,5 +1,6 @@
-﻿title:Startt
-position: -444,-55
+﻿
+title: Start
+position: -499,-137
 ---
 <<declare $t3chlvl0 = true>>
 <<declare $glitchboicount = 0>>
@@ -138,7 +139,7 @@ T3ch: Hey whats oh! ;p
 <<jump house>>
 ===
 title: Summon
-position: -221,-56
+position: -258,-32
 ---
 <<camera Yard>>
 All the windows in the house are on when you get there. It looks like someone was waiting for you.
@@ -194,6 +195,7 @@ You reach forward with the Divider, feeling it rumble on your arm.
 You touch the ritual device and a massive shower of data and distortion explodes from the device.
 
 <<camera Hell>>
+<<place merlinJoy Hell Prison>>
 <<place merlinShook Base Hacker>>
 You feel something inside you change.
 Do you understand what has changed?
@@ -275,7 +277,7 @@ Merlin was right...that kitchen really was nice...
     <<jump Yard>>
 ===
 title: GetMyStuff
-position: 801,-379
+position: 790,-384
 ---
 Merlin Level 2 date
 <<set $merlinlvl1 to false>>
@@ -293,7 +295,7 @@ T3ch: lvl3 I really really like u
     <<jump Yard>>
 ===
 title: TheChocolateMilkCut
-position: 802,-518
+position: 802,-512
 ---
 You see T3ch standing in the kitchen.
 There are scraps of peeled fruit and opened candy wrappers scattered.
@@ -322,8 +324,9 @@ God: THIS IS ALL THATS DONE RIGHT NOW. THE REST IS PLACEHOLDER. THANKS FOR PLAYI
     <<jump Kitchen>>
 ===
 title: T3CHD43M0N
-position: 593,-515
+position: 595,-516
 ---
+<<set $t3chlvl1 to true>>
 You know what this thing is. In the four minutes of trainning you recieved after being born, you're instructors warned you of this
 The greatest threat a TECHXORCIST can face.
 a T3CHD43M0N
@@ -373,7 +376,7 @@ T3ch: lvl1 I like u
     <<jump Base>>
 ===
 title: BadTimeGenerator
-position: 591,-381
+position: 587,-382
 ---
 TECHXORCIST: You...
 Merlin: H-hi! Sir! uh..Ma'am?
@@ -396,7 +399,7 @@ Merlin lvl3
 -> Jump Basment
     <<jump Base>>
 ===
-title: Start
+title: jumppp
 position: -153,128
 ---
 -> Basement
@@ -453,7 +456,7 @@ position: 327,368
 
 ===
 title: BadEnding
-position: 596,174
+position: 592,177
 ---
 You level your Divider at the monster.
 
@@ -484,7 +487,7 @@ Congratulations, You are a true TECHXORCIST.
 
 ===
 title: TalkToT3CHD43MON
-position: 593,-708
+position: 592,-708
 ---
 
 -> TECHXORCIST: How did you get here?
@@ -498,7 +501,7 @@ position: 593,-708
     You think about the wasteland. A question pries itself from your brain before you can stop yourself.
     TECHXORCIST: Do you like it there?
     He turns to you.
-    <<place t3chbleh Hell Prison>>
+    <<place t3chidiot Hell Prison>>
     <<place t3chdenied Base Demon>>
     T3CHD43MON: You must be fresh. You should know better than to ask questions like that.
     <<place xorDetermined Hell Prison>>
@@ -524,6 +527,8 @@ position: 593,-708
         <<jump Base>>
 -> TECHXORCIST: What is your name? <WARNING: ANOMALOUS THOUGHT DETECTED DO NOT CHOSE>
     He turns around to face you.
+    <<place t3chdenied Hell Prison>>
+    <<place t3chbleh Base Demon>>
     T3CHD43MON: You really are a special one, aren't you?
     TECHXORCIST: I don't understand. Explain?
     T3CHD43MON: I don't remember much, things tend to get scrambled around in here.
@@ -533,6 +538,8 @@ position: 593,-708
     T3CHD43MON: That seems a bit demeaning.
     TECHXORCIST: Answer my question D43M0N, or I wil-
     T3CHD43MON: You'll do what.
+    <<place xorDetermined Hell Prison>>
+    <<place xorConflicted Hell Prison>>
     <<place xorFlustered Base Xor>>
     TECHXORCIST: ...
     T3CHD43MON: Heh
@@ -544,14 +551,14 @@ position: 593,-708
     T3CHD43MON: How about Xor. Like, TechXORcist.
     You feel something warm in your chest.
     XOR: Yes that works...T3ch.
-    T3ch smiles curiously at you...
+    You can't see his face, but it feels like hes smiling at you.
     -> Keep Asking Questions
         <<jump TalkToT3CHD43MON>> 
     -> Return to Basement
         <<jump Base>>
 ===
 title: QuestionMerlin
-position: 295,-631
+position: 293,-547
 ---
 -> What was that ritual?
 Merlin: Ok fine. It's...it's a malware machine.
